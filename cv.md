@@ -17,9 +17,43 @@ I have rich experience as an assistant to the CEO in an IT and now I willing to 
 
 ## _Skills_
 
-__Programming and organizational tools__: HTML, CSS, JavaScript, git, VSCode, Notion, Outlook, Jira
+HTML, CSS, JavaScript, git, VSCode, Notion, Outlook, Jira
+
+## _Code example_
+```
+const clockElement = document.createElement('h1')
+document.body.append(clockElement)
+clockElement.setAttribute('style', 'margin: 100px; font-family: -apple-system, "Helvetica Neue"; font-size: 42px; font-weight: 100')
+
+function transformTime(time) {
+    return time < 10 ? `0${time}` : time
+    // if (time < 10)
+    //     time = `0${time}`
+    // else time = time
+    // return time
+}
+
+function buildTemplateTime() {
+    const currentDate = new Date()
+
+    let hour = currentDate.getHours()
+    hour = transformTime(hour)
+
+    let minute = currentDate.getMinutes()
+    minute = transformTime(minute)
+
+    let sec = currentDate.getSeconds()
+    sec = transformTime(sec)
+
+    const ourTime = `${hour}:${minute}:${sec}`
+    clockElement.textContent = ourTime
+}
+
+const timer = setInterval(buildTemplateTime, 1000)
+```
 
 ## _English level_
+
 B1   
 
 ## _Education_
@@ -29,5 +63,6 @@ B1
 
 
 ## _Websites & Social links_
+
 My page on [LinkedIn](https://www.linkedin.com/in/daria-zchilich-8a67a631/)  
 My [Facebook](https://www.facebook.com/dasha.zhilich) account
