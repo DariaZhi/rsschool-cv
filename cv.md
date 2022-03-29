@@ -20,7 +20,7 @@ I have rich experience as an assistant to the CEO in an IT and now I willing to 
 __Programming and organizational tools__: HTML, CSS, JavaScript, git, VSCode, Notion, Outlook, Jira
 
 ## _English level_
-     B1   
+B1   
 
 ## _Education_
 
