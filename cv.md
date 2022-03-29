@@ -12,9 +12,8 @@ I have rich experience as an assistant to the CEO in an IT and now I willing to 
 
 ## _Work Experience_
 
-2011 - 2021   assistant to the CEO at [RichBrains](https://richbrains.net)
-
-2008 - 2011   croupier in the casino
+*2011 - 2021*   assistant to the CEO at [RichBrains](https://richbrains.net)    
+*2008 - 2011*   croupier in the casino
 
 ## _Skills_
 
@@ -26,11 +25,10 @@ __Organizational tools__: Notion, Outlook, Jira
 
 ## _Education_
 
-2021 - present   Frontend-developer course at [MyFreedom](https://myfreedom.by) 
-2015 - 2016   English at [Moonlight](https://mlight.by)
+*2021 - present*   Frontend-developer course at [MyFreedom](https://myfreedom.by)  
+*2015 - 2016*   English at [Moonlight](https://mlight.by)
 
 
 ## _Websites & Social links_
-My page on [LinkedIn](https://www.linkedin.com/in/daria-zchilich-8a67a631/)
-
+My page on [LinkedIn](https://www.linkedin.com/in/daria-zchilich-8a67a631/)  
 My [Facebook](https://www.facebook.com/dasha.zhilich) account
