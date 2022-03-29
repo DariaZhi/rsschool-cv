@@ -13,17 +13,20 @@ I have rich experience as an assistant to the CEO in an IT and now I willing to 
 ## _Work Experience_
 
 2011 - 2021   assistant to the CEO at [RichBrains](https://richbrains.net)
+
 2008 - 2011   croupier in the casino
 
 ## _Skills_
 
 __Languages__: Belarussian С2, English B1, Russian C2
+
 __Programming tools__: HTML, CSS, JavaScript, git, VSCode
+
 __Organizational tools__: Notion, Outlook, Jira
 
 ## _Education_
 
-2021 - present   Frontend-developer course at [MyFreedom](https://myfreedom.by)  
+2021 - present   Frontend-developer course at [MyFreedom](https://myfreedom.by) 
 2015 - 2016   English at [Moonlight](https://mlight.by)
 
 
