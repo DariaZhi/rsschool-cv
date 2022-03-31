@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV. Daria Zhilich</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper header-wrapper">
+        <div class="name">
+            <h1>Daria Zhilich</h1>
+            <h2>Front-end Developer</h2>
+        </div>
+        <div class="photo">
+            <img src="./images/forCV.jpg" alt="Daria Zhilich">
+        </div>
+    </div>
+
+    <main>
+        <div class="wrapper main-wrapper">
+
+            <div class="left">
+                <section class="about_me">
+                    <h2>About Me</h2>
+                    <p>I have rich experience as an assistant to the CEO in an IT and now I willing to go to another
+                        side of
+                        the
+                        fence as frontend developer.</p>
+                </section>
+
+                <section class="work_experience">
+                    <h2>Work experience</h2>
+                    <p><i>2011 - 2021:</i> assistant to the CEO at <a href="https://richbrains.net">RichBrains</a></p>
+                    <p><i>2008 - 2011:</i> croupier in the casino</p>
+                </section>
+                <section class="education">
+                    <h2>Education</h2>
+                    <p><i>2021 - present:</i> Frontend-developer course at <a href="https://myfreedom.by">MyFreedom</a>
+                    </p>
+                    <p><i>2015 - 2017:</i> English at <a href="https://mlight.by">Moonlight</a></p>
+                </section>
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <p>HTML, CSS, JavaScript, git, VSCode, Notion, Outlook, Jira</p>
+                </section>
+                <section class="english_level">
+                    <h2>English level</h2>
+                    <p>B1</p>
+                </section>
+                <section class="code_example">
+                    <h2>Code example</h2>
+                    <pre>
+    const clockElement = document.createElement('h1')
+    document.body.append(clockElement)
+    clockElement.setAttribute('style', 'margin: 100px; font-family: -apple-system,"Helvetica Neue"; <br> font-size: 42px; font-weight: 100')
+
+                        function transformTime(time) {
+                           return time < 10 ? `0${time}` : time
+                        }
+
+
+                        function buildTemplateTime() {
+                            const currentDate = new Date()
+
+                            let hour = currentDate.getHours()
+                            hour = transformTime(hour)
+
+                            let minute = currentDate.getMinutes()
+                            minute = transformTime(minute)
+                    
+                            let sec = currentDate.getSeconds()
+                            sec = transformTime(sec)
+
+                            const ourTime = `${hour}:${minute}:${sec}`
+                            clockElement.textContent = ourTime
+                        }
+
+
+                        const timer = setInterval(buildTemplateTime, 1000)
+                    </pre>
+                </section>
+               
+            </div>
+
+
+            <div class="right">
+                <section class="contacts">
+                    <h2>Contacts</h2>
+
+                    <li class="phone"> +375 (29) 6383507</li>
+                    <li class="mail"><a href="https://mail.google.com/mail">iamlucky.da@gmail.com</a></li>
+                    <li class="telegram"><a href="https://web.telegram.org">@daria_zhi</a></li>
+
+                </section>
+                <section class="social_links">
+                    <h2>Social links</h2>
+                    <p>My work on <a href="#">GitHub</a></p>
+                    <p>My page on <a href="https://www.linkedin.com/feed/">LinkedIn</a></p>
+                    <p>My <a href="https://www.facebook.com/dasha.zhilich">Facebook</a> account</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <div class="wrapper footer-wrapper">
+        <div class="logo">
+            <a href="https://rs.school/js/" class="logo-link"></a>
+        </div>
+        <div>
+            <p>© 2022 The Rolling Scopes</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

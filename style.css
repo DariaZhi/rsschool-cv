@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    margin-bottom: 25px;
+}
+
+.wrapper{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    line-height: 25px;
+}
+
+h1{
+   font-size: 3em;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+
+h2{
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.photo img{
+    width: 300px;
+    border-radius: 160px;
+}
+
+.header-wrapper{
+    width: 70%;
+    padding: 50px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left{
+    border-right: 1px black solid;
+    width: 75%;
+}
+
+.code_example pre{
+    white-space: pre-wrap;
+}
+
+.contacts li{
+   list-style-type: none;
+   margin-bottom: 10px;
+   background-repeat: no-repeat;
+   padding-left: 50px;
+}
+
+.phone{
+    background: url(./images/phone.svg) left center transparent;  
+}
+
+.mail{
+    background: url(./images/mail.svg) left center; 
+}
+
+.telegram{
+    background: url(./images/telegram.svg) left center;  
+}
+
+.footer-wrapper{
+    margin: 40px auto;
+    align-items: center;
+}
+
+.logo-link{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: url(./images/rs_school_js.svg) no-repeat center;
+    background-size: contain;
+}
